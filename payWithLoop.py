@@ -1,6 +1,6 @@
 choice = None
 while choice is None:
-    input_value = input("Greetings Professor. Please enter 1 or 2: ")
+    input_value = input("Please enter 1 or 2: ")
     try:
         choice = int(input_value)
     except ValueError:
